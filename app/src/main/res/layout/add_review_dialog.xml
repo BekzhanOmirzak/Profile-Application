@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/txtReviewItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are reviewing: Milk"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtReviewItem"
+            android:layout_marginTop="10dp"
+            android:hint="Your Name Here"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewYourReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtName"
+            android:layout_marginTop="10dp"
+            android:text="Your Review"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtYourReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewYourReview"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:hint="Your Review"
+            android:lines="5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:layout_below="@id/edtYourReview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:text="Add" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

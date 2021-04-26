@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "502574842200",
+    "project_id": "coding-in-flow-tutorial",
+    "storage_bucket": "coding-in-flow-tutorial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502574842200:android:dc708253c19ab0fe9a652d",
+        "android_client_info": {
+          "package_name": "com.example.codinginflowtutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502574842200-8jipi3r09qgeecqmr3hobjn8ulfd3g7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIdu6KRFAbdYlKKKWl_HWFoiZbvU5BF5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502574842200-8jipi3r09qgeecqmr3hobjn8ulfd3g7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502574842200:android:ea1895c21edf62359a652d",
+        "android_client_info": {
+          "package_name": "com.example.profileapplication3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502574842200-8jipi3r09qgeecqmr3hobjn8ulfd3g7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIdu6KRFAbdYlKKKWl_HWFoiZbvU5BF5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502574842200-8jipi3r09qgeecqmr3hobjn8ulfd3g7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
